@@ -1,4 +1,4 @@
-apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-master
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: mycr001.azurecr.io/tshaiman/hello-node
+        image: pfetotalenergies.azurecr.io/seifv/hello-node
         resources:
           requests:
             cpu: 100m
