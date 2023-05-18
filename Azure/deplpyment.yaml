@@ -22,5 +22,5 @@ spec:
             cpu: 100m
             memory: 100Mi
         ports:
-        - containerPort: 8080
+        - containerPort: 80
           name: nodejs-port
